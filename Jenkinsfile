@@ -1,6 +1,7 @@
 pipeline {
-    stags {
-        stag {
+    agent any
+    stages {
+        stage {
             steps {
                 sh "echo"
             }
